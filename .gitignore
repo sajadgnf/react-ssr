@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Build files
+/build/
+
+# Dependency directories
+.jenkins/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables file
+.env
+
+# Yarn
+.yarn
+.yarnrc
+
+# Jest coverage directory
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Webpack
+dist/
+
+# Serverless
+.serverless/
+
+# End-to-end testing
+cypress/screenshots/
+cypress/videos/
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Desktop.ini
+thumbs.db
+
+# macOS
+.AppleDouble
+.DS_Store
+Network Trash Folder
+Temporary Items
+.Trashes/
