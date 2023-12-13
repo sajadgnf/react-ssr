@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "./server/server.js",
   output: {
     filename: "server-bundle.js",
@@ -9,7 +9,7 @@ module.exports = {
   },
   target: "node",
   node: {
-    __dirname: "mock", // or 'eval-only'
+    __dirname: "mock",
   },
   externals: [require("webpack-node-externals")()],
   module: {
